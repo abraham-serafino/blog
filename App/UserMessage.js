@@ -32,8 +32,7 @@ class UserMessage extends Component {
     render() {
         const { message = "Hello", username } = this.state
 
-        return `<p class="user-message">${message} ${username}</p>
-        `
+        return `<p class="user-message">${message} ${username}</p>`
     }
 }
 
